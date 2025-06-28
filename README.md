@@ -7,7 +7,7 @@ This project is a faithful replication of the Transformer model introduced in th
 Transformer is a groundbreaking model in natural language processing that relies entirely on self-attention mechanisms, allowing for parallel computation and long-range dependency modeling. This repository includes an end-to-end implementation from data processing to training and evaluation.
 
 ## 🗂️ Project Structure
-
+```
 transformer-Replication/
 │
 ├── data/ # Scripts for data loading and preprocessing
@@ -17,7 +17,7 @@ transformer-Replication/
 ├── utils.py # Utility functions: masking, positional encoding, etc.
 ├── config.py # Hyperparameter configuration
 └── README.md # Project documentation
-
+```
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -42,7 +42,7 @@ python train.py
 ```
 python evaluate.py
 ```
-🧠 Features
+## 🧠 Features
 Full Transformer Replication
 Includes all key components: multi-head attention, feed-forward layers, residual connections, layer normalization, and positional encoding.
 
@@ -52,10 +52,10 @@ Each module is independently implemented for clarity and reusability.
 Educational Focus
 The codebase is well-commented and structured for beginners and researchers looking to understand Transformer internals.
 
-📈 Example Results
+## 📈 Example Results
 After training on a toy dataset (e.g., sequence-to-sequence synthetic data), the model successfully learns meaningful input-output mappings, demonstrating the validity of the architecture.
 
-🔭 Future Work
+## 🔭 Future Work
 Implement variations such as BERT and GPT.
 
 Integrate visualization tools (e.g., attention maps).
@@ -64,14 +64,14 @@ Support multilingual and multitask training.
 
 Add inference and deployment examples.
 
-📝 References
+## 📝 References
 Attention Is All You Need (arXiv:1706.03762)
 
 The Annotated Transformer by Harvard NLP
 
 PyTorch Documentation
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to contribute or open issues if you have suggestions or find bugs.
