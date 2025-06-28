@@ -70,8 +70,3 @@ Attention Is All You Need (arXiv:1706.03762)
 The Annotated Transformer by Harvard NLP
 
 PyTorch Documentation
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Feel free to contribute or open issues if you have suggestions or find bugs.
